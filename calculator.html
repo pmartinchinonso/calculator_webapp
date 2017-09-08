@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Calculator</title>
+<link href="calc_style.css" rel="stylesheet" type="text/css">
+<script src="calc_js.js"></script>
+</head>
+
+<body>
+	<input readonly id="screen" type="text" placeholder="0">
+    <div class="button_group">
+      <button class="operators" onClick="push('/')">&divide;</button>
+      <button class="operators" onClick="push('*')">x</button>
+      <button class="operators" onClick="del()" id="delete">&#x25c0;</button>
+      <button onClick="push('7')">7</button>
+      <button onClick="push('8')">8</button>
+      <button onClick="push('9')">9</button>
+      <button class="operators" onClick="push('-')">-</button>
+      <button onClick="push('4')">4</button>
+      <button onClick="push('5')">5</button>
+      <button onClick="push('6')">6</button>
+      <button class="operators" onClick="push('+')">+</button>
+      <button onClick="push('1')">1</button>
+      <button onClick="push('2')">2</button>
+      <button onClick="push('3')">3</button>
+      <button onClick="calc()" id="equals">=</button>
+      <button onClick="push('.')" id="dot">.</button>
+      <button onClick="push('0')" id="zero">0</button>
+      
+    </div>
+</body>
+</html>

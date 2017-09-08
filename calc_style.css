@@ -1,0 +1,54 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	background-color: #333;
+}
+#screen{
+	border: 0;
+	text-align: right;
+	background: transparent;
+	width: 90%;
+	font-size: 32px;
+	position: absolute;
+	bottom: 65%;
+	padding: 50px 5% 10px;
+	color: #FFF;
+}
+.button_group {
+	height: 65%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+#delete {
+	width: 50%;
+}
+#equals {
+	height: 40%;
+	float: right;
+	background-color: #F90;
+	color: #Fff;
+}
+
+
+button{
+	width: 25%;
+	height: 20%;
+	float: left;
+	border: 0.5px solid #E9E9E9;
+	background-color: #fff;
+	font-size: 20px;
+}
+button:active{
+	background-color: #eaeaea;
+}
+#zero{
+	float: right;
+	width: 50%;
+}
+#dot{
+	float: right;
+}
+.operators{
+	background-color: #F0F0F0;
+}
